@@ -67,10 +67,10 @@ abstract class Employee
     }
     function Show()
     {
-        echo "<p>Имя : </p>{$this->name}<br>
-              <p>Фамилия : </p>{$this->surname}<br> 
-              <p>Стаж работы : </p>{$this->workExperience}<br>
-              <p>Заработная плата : </p>{$this->salary}<br>";
+        echo "<p>Имя : {$this->name}</p>
+              <p>Фамилия : {$this->surname}</p>
+              <p>Стаж работы : {$this->workExperience}</p>
+              <p>Заработная плата : {$this->salary}</p>";
     }
 
     abstract function getCalculatingEmployeeValue();

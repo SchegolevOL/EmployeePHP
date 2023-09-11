@@ -45,7 +45,7 @@ class HREmploee extends Employee
     function Show(): void
     {
         parent::Show();
-        echo "<p>Ценность сотрудника : </p>{$this->getCalculatingEmployeeValue()}<br>";
+        echo "<p>Ценность сотрудника: {$this->getCalculatingEmployeeValue()}</p>";
     }
 
 }
