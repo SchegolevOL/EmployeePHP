@@ -1,0 +1,17 @@
+{
+    "name": "olegs/employee",
+    "autoload": {
+        "psr-4": {
+            "class\\": "app/classes",
+            "trait\\": "app/Traits"
+        }
+    },
+    "authors": [
+        {
+            "name": "OLSchegolev"
+        }
+    ],
+    "require": {
+
+    }
+}
